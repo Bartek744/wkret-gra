@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Zapobiega scrollowaniu */
+    background-color: black; /* Ciemne tło */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Pełna wysokość ekranu */
+}
+
+canvas {
+    display: block;
+}
+
+#info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    font-family: sans-serif;
+    z-index: 10; /* Aby info było nad canvasem */
+}
